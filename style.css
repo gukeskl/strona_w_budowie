@@ -1,0 +1,53 @@
+
+
+body{
+    background: #82A7A6;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+#content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bulb{
+    font-size: 200px;
+    transform: scale(1.1);
+    margin: 30px;
+    animation-name: lighting;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lighting {
+    0%{
+        color: white;
+    }
+    50%{
+        color: #fdfe7f;
+    }
+    100%{
+        color:white;
+    }
+}
+
+#arrow{
+    font-size: 80px;
+    padding: 40px;
+}
+#contacts{
+    text-align: center;
+}
+
+
+
